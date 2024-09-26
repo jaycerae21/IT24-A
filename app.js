@@ -52,3 +52,37 @@ do {
      l++;
 }while (l < 5);
 console.log(l);
+// Functional Programming
+// Determine if a number is odd or even
+function checkOddEven(num) {
+    if (num % 2 === 0) {
+        return "Even";
+    } else {
+        return "Odd";
+    }
+}
+console.log(checkOddEven(7));
+
+// Determine if a number is prime
+function Prime(number) {
+    for (let i = 2; i < number; i++) {
+        if (number % i === 0) {
+            return "Not Prime";
+        }
+    }
+    return "Prime";
+}
+
+console.log(Prime(13));
+
+// Determine if a string is a palindrome
+function Palindrome(check) {
+    let reversedStr = check.split('').reverse().join('');
+    if (check === reversedStr) {
+        return "Palindrome";
+    } else {
+        return "Not a Palindrome";
+    }
+}
+
+console.log(Palindrome(""));
