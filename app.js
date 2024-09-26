@@ -42,3 +42,13 @@ switch (day) {
     default:
         console.log("It's another day for taking JS");
 }
+// Loops
+for (let i = 0; i < 5; i++) {
+    console.log(i);
+}
+//do while
+let l = 0
+do {
+     l++;
+}while (l < 5);
+console.log(l);
