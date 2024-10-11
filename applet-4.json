@@ -1,0 +1,19 @@
+[
+    {
+        "student_id": 1,
+        "student_name": "Jayce Rae Cenia",
+        "student_program": "BS-Nursing"
+    },
+
+    {
+        "student_id": 2,
+        "student_name": "Sophia Bianca Medado",
+        "student_program": "BS-Med Tech"
+    },
+
+    {
+        "student_id": 3,
+        "student_name": "Zyra Ando",
+        "student_program": "BS-Civil Eng"
+    }
+]
