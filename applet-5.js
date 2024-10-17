@@ -35,6 +35,7 @@ class WeatherService extends WeatherApp {
         super();
         this.apiKey = '';
     }
+    
 
     async fetchWeather() {
         const city = this.cityInput.value;
@@ -44,6 +45,7 @@ class WeatherService extends WeatherApp {
             alert('Please enter your API key.');
             return;
         }
+        
 
         if (city) {
             const data = await this.getWeatherData(city);
