@@ -45,7 +45,7 @@ class WeatherService extends WeatherApp {
             alert('Please enter your API key.');
             return;
         }
-        
+
 
         if (city) {
             const data = await this.getWeatherData(city);
@@ -58,6 +58,7 @@ class WeatherService extends WeatherApp {
             alert('Please enter a city name.');
         }
     }
+
     
 
     async fetchWeatherByLocation() {
@@ -81,6 +82,7 @@ class WeatherService extends WeatherApp {
             alert('Geolocation is not supported by this browser.');
         }
     }
+    
 
     async getWeatherData(city) {
         try {
