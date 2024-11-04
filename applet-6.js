@@ -14,7 +14,7 @@ class todoList{
             if (action) this[action + 'Task'](e);
         });
     }
-    
+
 
 
     addOrUpdateTask() {
@@ -24,6 +24,7 @@ class todoList{
             this.todoInput.value = '';
         }
     }
+    
 
 
     addTask(taskText) {
