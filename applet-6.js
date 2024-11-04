@@ -74,7 +74,7 @@ class todoList{
         this.editingIndex = Array.from(this.todoList.children).indexOf(taskItem);
         this.addButton.textContent = 'Update';
     }
-    
+
 
 
     resetEditing() {
@@ -83,6 +83,7 @@ class todoList{
     }
 
 }
+
 
 
 class TimestampedTodoList extends todoList {
