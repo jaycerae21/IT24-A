@@ -65,7 +65,7 @@ class todoList{
     removeTask(event) {
         this.todoList.removeChild(event.target.closest('.todo-item'));
     }
-    
+
 
 
     editTask(event) {
@@ -74,6 +74,7 @@ class todoList{
         this.editingIndex = Array.from(this.todoList.children).indexOf(taskItem);
         this.addButton.textContent = 'Update';
     }
+    
 
 
     resetEditing() {
