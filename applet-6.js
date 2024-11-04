@@ -24,7 +24,7 @@ class todoList{
             this.todoInput.value = '';
         }
     }
-    
+
 
 
     addTask(taskText) {
@@ -41,6 +41,7 @@ class todoList{
         `;
         this.todoList.appendChild(listItem);
     }
+    
 
 
     doneTask(event) {
