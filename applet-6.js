@@ -41,7 +41,7 @@ class todoList{
         `;
         this.todoList.appendChild(listItem);
     }
-    
+
 
 
     doneTask(event) {
@@ -52,6 +52,7 @@ class todoList{
         const buttons = taskItem.querySelectorAll('button');
         buttons.forEach(button => button.disabled = true);
     }
+    
 
 
     updateTask(taskText) {
